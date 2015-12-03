@@ -27,7 +27,7 @@ import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.ui.Button;
 import com.ng.pixeldungeon.Assets;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.Rankings;
 import com.ng.pixeldungeon.effects.Flare;
 import com.ng.pixeldungeon.sprites.ItemSprite;
@@ -63,7 +63,7 @@ public class RankingsScene extends PixelScene {
 		super.create();
 		
 		Music.INSTANCE.play( Assets.THEME, true );
-		Music.INSTANCE.volume( ShatteredPixelDungeon.musicVol() / 10f );
+		Music.INSTANCE.volume( NGPixelDungeon.musicVol() / 10f );
 
 		uiCamera.visible = false;
 		
@@ -153,7 +153,7 @@ public class RankingsScene extends PixelScene {
 	
 	@Override
 	protected void onBackPressed() {
-		ShatteredPixelDungeon.switchNoFade(TitleScene.class);
+		NGPixelDungeon.switchNoFade(TitleScene.class);
 	}
 	
 	public static class Record extends Button {

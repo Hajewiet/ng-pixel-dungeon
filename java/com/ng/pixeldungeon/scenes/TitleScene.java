@@ -37,7 +37,7 @@ import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.ui.Button;
 import com.ng.pixeldungeon.Assets;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.effects.BannerSprites;
 import com.ng.pixeldungeon.effects.Fireball;
 import com.ng.pixeldungeon.ui.Archs;
@@ -58,7 +58,7 @@ public class TitleScene extends PixelScene {
 
 
 		Music.INSTANCE.play( Assets.THEME, true );
-		Music.INSTANCE.volume( ShatteredPixelDungeon.musicVol() / 10f );
+		Music.INSTANCE.volume( NGPixelDungeon.musicVol() / 10f );
 
 		uiCamera.visible = false;
 		
@@ -73,7 +73,7 @@ public class TitleScene extends PixelScene {
 		add( title );
 
 		float height = title.height +
-				(ShatteredPixelDungeon.landscape() ? DashboardItem.SIZE : DashboardItem.SIZE * 2);
+				(NGPixelDungeon.landscape() ? DashboardItem.SIZE : DashboardItem.SIZE * 2);
 
 		title.x = (w - title.width()) / 2;
 		title.y = (h - height) / 2;
@@ -102,7 +102,7 @@ public class TitleScene extends PixelScene {
 		DashboardItem btnBadges = new DashboardItem( TXT_BADGES, 3 ) {
 			@Override
 			protected void onClick() {
-				ShatteredPixelDungeon.switchNoFade( BadgesScene.class );
+				NGPixelDungeon.switchNoFade(BadgesScene.class);
 			}
 		};
 		add(btnBadges);
@@ -110,7 +110,7 @@ public class TitleScene extends PixelScene {
 		DashboardItem btnAbout = new DashboardItem( TXT_ABOUT, 1 ) {
 			@Override
 			protected void onClick() {
-				ShatteredPixelDungeon.switchNoFade( AboutScene.class );
+				NGPixelDungeon.switchNoFade(AboutScene.class);
 			}
 		};
 		add( btnAbout );
@@ -118,7 +118,7 @@ public class TitleScene extends PixelScene {
 		DashboardItem btnPlay = new DashboardItem( TXT_PLAY, 0 ) {
 			@Override
 			protected void onClick() {
-				ShatteredPixelDungeon.switchNoFade( StartScene.class );
+				NGPixelDungeon.switchNoFade(StartScene.class);
 			}
 		};
 		add( btnPlay );
@@ -126,12 +126,12 @@ public class TitleScene extends PixelScene {
 		DashboardItem btnHighscores = new DashboardItem( TXT_HIGHSCORES, 2 ) {
 			@Override
 			protected void onClick() {
-				ShatteredPixelDungeon.switchNoFade( RankingsScene.class );
+				NGPixelDungeon.switchNoFade(RankingsScene.class);
 			}
 		};
 		add( btnHighscores );
 
-		if (ShatteredPixelDungeon.landscape()) {
+		if (NGPixelDungeon.landscape()) {
 			float y = (h + height) / 2 - DashboardItem.SIZE;
 			btnHighscores    .setPos( w / 2 - btnHighscores.width(), y );
 			btnBadges        .setPos( w / 2, y );
@@ -163,7 +163,7 @@ public class TitleScene extends PixelScene {
 		btnExit.setPos( w - btnExit.width(), 0 );
 		add( btnExit );
 
-		int gameversion = ShatteredPixelDungeon.version();
+		int gameversion = NGPixelDungeon.version();
 
 		if (gameversion != Game.versionCode) {
 			if (gameversion < 65){

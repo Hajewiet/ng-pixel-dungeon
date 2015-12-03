@@ -23,7 +23,7 @@ package com.ng.pixeldungeon.actors.blobs;
 import java.util.Arrays;
 
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.actors.Actor;
 import com.ng.pixeldungeon.effects.BlobEmitter;
 import com.ng.pixeldungeon.levels.Level;
@@ -212,7 +212,7 @@ public class Blob extends Actor {
 			return gas;
 			
 		} catch (Exception e) {
-			ShatteredPixelDungeon.reportException(e);
+			NGPixelDungeon.reportException(e);
 			return null;
 		}
 	}

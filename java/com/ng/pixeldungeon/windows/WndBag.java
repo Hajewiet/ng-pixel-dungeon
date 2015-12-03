@@ -23,7 +23,7 @@ package com.ng.pixeldungeon.windows;
 import android.graphics.RectF;
 import com.ng.pixeldungeon.Assets;
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.actors.hero.Belongings;
 import com.ng.pixeldungeon.actors.hero.Hero;
 import com.ng.pixeldungeon.items.EquipableItem;
@@ -107,7 +107,7 @@ public class WndBag extends WndTabbed {
 		lastMode = mode;
 		lastBag = bag;
 
-		nCols = ShatteredPixelDungeon.landscape() ? COLS_L : COLS_P;
+		nCols = NGPixelDungeon.landscape() ? COLS_L : COLS_P;
 		nRows = (Belongings.BACKPACK_SIZE + 4 + 1) / nCols + ((Belongings.BACKPACK_SIZE + 4 + 1) % nCols > 0 ? 1 : 0);
 
 		int slotsWidth = SLOT_SIZE * nCols + SLOT_MARGIN * (nCols - 1);

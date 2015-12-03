@@ -22,7 +22,7 @@ package com.ng.pixeldungeon.windows;
 
 import java.util.ArrayList;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.ui.Component;
 import com.ng.pixeldungeon.items.Item;
@@ -62,7 +62,7 @@ public class WndCatalogus extends WndTabbed {
 		
 		super();
 
-		if (ShatteredPixelDungeon.landscape()) {
+		if (NGPixelDungeon.landscape()) {
 			resize( WIDTH_L, HEIGHT_L );
 		} else {
 			resize( WIDTH_P, HEIGHT_P );

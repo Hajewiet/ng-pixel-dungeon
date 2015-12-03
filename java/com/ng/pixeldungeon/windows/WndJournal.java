@@ -22,7 +22,7 @@ package com.ng.pixeldungeon.windows;
 
 import java.util.Collections;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.ui.Component;
@@ -49,7 +49,7 @@ public class WndJournal extends Window {
 	public WndJournal() {
 		
 		super();
-		resize( WIDTH, ShatteredPixelDungeon.landscape() ? HEIGHT_L : HEIGHT_P );
+		resize( WIDTH, NGPixelDungeon.landscape() ? HEIGHT_L : HEIGHT_P );
 
 		txtTitle = PixelScene.createText( TXT_TITLE, 9 );
 		txtTitle.hardlight( Window.TITLE_COLOR );

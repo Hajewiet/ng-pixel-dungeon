@@ -25,7 +25,7 @@ import java.io.IOException;
 import com.ng.pixeldungeon.ui.*;
 import com.watabou.noosa.Game;
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.scenes.GameScene;
 import com.ng.pixeldungeon.scenes.InterlevelScene;
 import com.ng.pixeldungeon.scenes.RankingsScene;
@@ -78,7 +78,7 @@ public class WndGame extends Window {
 				@Override
 				protected void onClick() {
 					Dungeon.hero = null;
-					ShatteredPixelDungeon.challenges( Dungeon.challenges );
+					NGPixelDungeon.challenges(Dungeon.challenges);
 					InterlevelScene.mode = InterlevelScene.Mode.DESCEND;
 					InterlevelScene.noStory = true;
 					Game.switchScene( InterlevelScene.class );

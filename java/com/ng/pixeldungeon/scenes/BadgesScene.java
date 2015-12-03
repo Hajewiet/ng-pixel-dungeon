@@ -28,7 +28,7 @@ import com.watabou.noosa.audio.Music;
 import com.ng.pixeldungeon.Assets;
 import com.ng.pixeldungeon.Badges;
 import com.ng.pixeldungeon.Chrome;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.ui.Archs;
 import com.ng.pixeldungeon.ui.BadgesList;
 import com.ng.pixeldungeon.ui.ExitButton;
@@ -48,7 +48,7 @@ public class BadgesScene extends PixelScene {
 		super.create();
 
 		Music.INSTANCE.play( Assets.THEME, true );
-		Music.INSTANCE.volume( ShatteredPixelDungeon.musicVol() / 10f  );
+		Music.INSTANCE.volume( NGPixelDungeon.musicVol() / 10f  );
 
 		uiCamera.visible = false;
 
@@ -96,7 +96,7 @@ public class BadgesScene extends PixelScene {
 			@Override
 			public void call() {
 				if (Game.scene() == BadgesScene.this) {
-					ShatteredPixelDungeon.switchNoFade( BadgesScene.class );
+					NGPixelDungeon.switchNoFade(BadgesScene.class);
 				}
 			}
 		};
@@ -113,6 +113,6 @@ public class BadgesScene extends PixelScene {
 
 	@Override
 	protected void onBackPressed() {
-		ShatteredPixelDungeon.switchNoFade( TitleScene.class );
+		NGPixelDungeon.switchNoFade(TitleScene.class);
 	}
 }

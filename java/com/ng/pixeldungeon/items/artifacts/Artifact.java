@@ -21,7 +21,7 @@
 package com.ng.pixeldungeon.items.artifacts;
 
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.actors.Char;
 import com.ng.pixeldungeon.actors.buffs.Buff;
 import com.ng.pixeldungeon.actors.hero.Hero;
@@ -96,7 +96,7 @@ public class Artifact extends KindofMisc {
 			final KindofMisc m2 = hero.belongings.misc2;
 			final Artifact art = this;
 
-			ShatteredPixelDungeon.scene().add(
+			NGPixelDungeon.scene().add(
 					new WndOptions(TXT_UNEQUIP_TITLE, TXT_UNEQUIP_MESSAGE,
 							Utils.capitalize(m1.toString()),
 							Utils.capitalize(m2.toString())) {

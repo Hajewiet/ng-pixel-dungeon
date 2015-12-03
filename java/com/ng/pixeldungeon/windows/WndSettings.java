@@ -21,7 +21,7 @@
 package com.ng.pixeldungeon.windows;
 
 import com.ng.pixeldungeon.Assets;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.scenes.GameScene;
 import com.ng.pixeldungeon.scenes.PixelScene;
 import com.ng.pixeldungeon.ui.CheckBox;
@@ -105,9 +105,9 @@ public class WndSettings extends WndTabbed {
 					PixelScene.maxDefaultZoom ) {
 				@Override
 				protected void onChange() {
-					if (getSelectedValue() != ShatteredPixelDungeon.scale()) {
-						ShatteredPixelDungeon.scale(getSelectedValue());
-						ShatteredPixelDungeon.resetScene();
+					if (getSelectedValue() != NGPixelDungeon.scale()) {
+						NGPixelDungeon.scale(getSelectedValue());
+						NGPixelDungeon.resetScene();
 					}
 				}
 			};
@@ -122,10 +122,10 @@ public class WndSettings extends WndTabbed {
 			OptionSlider brightness = new OptionSlider("Brightness", "Dark", "Bright", -2, 4) {
 				@Override
 				protected void onChange() {
-					ShatteredPixelDungeon.brightness(getSelectedValue());
+					NGPixelDungeon.brightness(getSelectedValue());
 				}
 			};
-			brightness.setSelectedValue(ShatteredPixelDungeon.brightness());
+			brightness.setSelectedValue(NGPixelDungeon.brightness());
 			brightness.setRect(0, scale.bottom() + GAP_SML, WIDTH, SLIDER_HEIGHT);
 			add(brightness);
 
@@ -133,19 +133,19 @@ public class WndSettings extends WndTabbed {
 				@Override
 				protected void onClick() {
 					super.onClick();
-					ShatteredPixelDungeon.immerse(checked());
+					NGPixelDungeon.immerse(checked());
 				}
 			};
 			chkImmersive.setRect( 0, brightness.bottom() + GAP_LRG, WIDTH, BTN_HEIGHT );
-			chkImmersive.checked(ShatteredPixelDungeon.immersed());
+			chkImmersive.checked(NGPixelDungeon.immersed());
 			chkImmersive.enable(android.os.Build.VERSION.SDK_INT >= 19);
 			add(chkImmersive);
 
 
-			RedButton btnOrientation = new RedButton( ShatteredPixelDungeon.landscape() ? TXT_SWITCH_PORT : TXT_SWITCH_LAND ) {
+			RedButton btnOrientation = new RedButton( NGPixelDungeon.landscape() ? TXT_SWITCH_PORT : TXT_SWITCH_LAND ) {
 				@Override
 				protected void onClick() {
-					ShatteredPixelDungeon.landscape(!ShatteredPixelDungeon.landscape());
+					NGPixelDungeon.landscape(!NGPixelDungeon.landscape());
 				}
 			};
 			btnOrientation.setRect(0, chkImmersive.bottom() + GAP_LRG, WIDTH, BTN_HEIGHT);
@@ -166,7 +166,7 @@ public class WndSettings extends WndTabbed {
 			RedButton btnSplit = new RedButton("Split"){
 				@Override
 				protected void onClick() {
-					ShatteredPixelDungeon.toolbarMode(Toolbar.Mode.SPLIT.name());
+					NGPixelDungeon.toolbarMode(Toolbar.Mode.SPLIT.name());
 					Toolbar.updateLayout();
 				}
 			};
@@ -176,7 +176,7 @@ public class WndSettings extends WndTabbed {
 			RedButton btnGrouped = new RedButton("Group"){
 				@Override
 				protected void onClick() {
-					ShatteredPixelDungeon.toolbarMode(Toolbar.Mode.GROUP.name());
+					NGPixelDungeon.toolbarMode(Toolbar.Mode.GROUP.name());
 					Toolbar.updateLayout();
 				}
 			};
@@ -186,7 +186,7 @@ public class WndSettings extends WndTabbed {
 			RedButton btnCentered = new RedButton("Center"){
 				@Override
 				protected void onClick() {
-					ShatteredPixelDungeon.toolbarMode(Toolbar.Mode.CENTER.name());
+					NGPixelDungeon.toolbarMode(Toolbar.Mode.CENTER.name());
 					Toolbar.updateLayout();
 				}
 			};
@@ -197,34 +197,34 @@ public class WndSettings extends WndTabbed {
 				@Override
 				protected void onClick() {
 					super.onClick();
-					ShatteredPixelDungeon.flipToolbar(checked());
+					NGPixelDungeon.flipToolbar(checked());
 					Toolbar.updateLayout();
 				}
 			};
 			chkFlipToolbar.setRect(0, btnGrouped.bottom() + GAP_SML, WIDTH, BTN_HEIGHT);
-			chkFlipToolbar.checked(ShatteredPixelDungeon.flipToolbar());
+			chkFlipToolbar.checked(NGPixelDungeon.flipToolbar());
 			add(chkFlipToolbar);
 
 			CheckBox chkFlipTags = new CheckBox("Flip Indicators"){
 				@Override
 				protected void onClick() {
 					super.onClick();
-					ShatteredPixelDungeon.flipTags(checked());
+					NGPixelDungeon.flipTags(checked());
 					GameScene.layoutTags();
 				}
 			};
 			chkFlipTags.setRect(0, chkFlipToolbar.bottom() + GAP_SML, WIDTH, BTN_HEIGHT);
-			chkFlipTags.checked(ShatteredPixelDungeon.flipTags());
+			chkFlipTags.checked(NGPixelDungeon.flipTags());
 			add(chkFlipTags);
 
 			OptionSlider slots = new OptionSlider("Quickslots", "0", "4", 0, 4) {
 				@Override
 				protected void onChange() {
-					ShatteredPixelDungeon.quickSlots(getSelectedValue());
+					NGPixelDungeon.quickSlots(getSelectedValue());
 					Toolbar.updateLayout();
 				}
 			};
-			slots.setSelectedValue(ShatteredPixelDungeon.quickSlots());
+			slots.setSelectedValue(NGPixelDungeon.quickSlots());
 			slots.setRect(0, chkFlipTags.bottom() + GAP_LRG, WIDTH, SLIDER_HEIGHT);
 			add(slots);
 		}
@@ -238,10 +238,10 @@ public class WndSettings extends WndTabbed {
 				@Override
 				protected void onChange() {
 					Music.INSTANCE.volume(getSelectedValue()/10f);
-					ShatteredPixelDungeon.musicVol(getSelectedValue());
+					NGPixelDungeon.musicVol(getSelectedValue());
 				}
 			};
-			musicVol.setSelectedValue(ShatteredPixelDungeon.musicVol());
+			musicVol.setSelectedValue(NGPixelDungeon.musicVol());
 			musicVol.setRect(0, 0, WIDTH, SLIDER_HEIGHT);
 			add(musicVol);
 
@@ -249,11 +249,11 @@ public class WndSettings extends WndTabbed {
 				@Override
 				protected void onClick() {
 					super.onClick();
-					ShatteredPixelDungeon.music(!checked());
+					NGPixelDungeon.music(!checked());
 				}
 			};
 			musicMute.setRect(0, musicVol.bottom() + GAP_SML, WIDTH, BTN_HEIGHT);
-			musicMute.checked(!ShatteredPixelDungeon.music());
+			musicMute.checked(!NGPixelDungeon.music());
 			add(musicMute);
 
 
@@ -261,10 +261,10 @@ public class WndSettings extends WndTabbed {
 				@Override
 				protected void onChange() {
 					Sample.INSTANCE.volume(getSelectedValue()/10f);
-					ShatteredPixelDungeon.SFXVol(getSelectedValue());
+					NGPixelDungeon.SFXVol(getSelectedValue());
 				}
 			};
-			SFXVol.setSelectedValue(ShatteredPixelDungeon.SFXVol());
+			SFXVol.setSelectedValue(NGPixelDungeon.SFXVol());
 			SFXVol.setRect(0, musicMute.bottom() + GAP_LRG, WIDTH, SLIDER_HEIGHT);
 			add(SFXVol);
 
@@ -272,12 +272,12 @@ public class WndSettings extends WndTabbed {
 				@Override
 				protected void onClick() {
 					super.onClick();
-					ShatteredPixelDungeon.soundFx(!checked());
+					NGPixelDungeon.soundFx(!checked());
 					Sample.INSTANCE.play( Assets.SND_CLICK );
 				}
 			};
 			btnSound.setRect(0, SFXVol.bottom() + GAP_SML, WIDTH, BTN_HEIGHT);
-			btnSound.checked(!ShatteredPixelDungeon.soundFx());
+			btnSound.checked(!NGPixelDungeon.soundFx());
 			add( btnSound );
 
 			resize( WIDTH, (int)btnSound.bottom());

@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 import com.watabou.noosa.BitmapText;
 import com.ng.pixeldungeon.Challenges;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.scenes.PixelScene;
 import com.ng.pixeldungeon.ui.CheckBox;
 import com.ng.pixeldungeon.ui.Window;
@@ -86,7 +86,7 @@ public class WndChallenges extends Window {
 					value |= Challenges.MASKS[i];
 				}
 			}
-			ShatteredPixelDungeon.challenges( value );
+			NGPixelDungeon.challenges(value);
 		}
 
 		super.onBackPressed();

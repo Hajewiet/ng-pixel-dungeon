@@ -27,7 +27,7 @@
 		android:allowBackup="false">
 		<activity
 			android:label="@string/app_name"
-			android:name="com.ng.pixeldungeon.ShatteredPixelDungeon"
+			android:name=".NGPixelDungeon"
 			android:configChanges="keyboardHidden|orientation|screenSize"
 			android:screenOrientation="portrait">
 			<intent-filter >

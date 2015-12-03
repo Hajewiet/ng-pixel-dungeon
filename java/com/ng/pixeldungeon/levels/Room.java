@@ -27,7 +27,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.levels.painters.*;
 import com.watabou.utils.Bundlable;
 import com.watabou.utils.Bundle;
@@ -89,7 +89,7 @@ public class Room extends Rect implements Graph.Node, Bundlable {
 			try {
 				paint.invoke( null, level, room );
 			} catch (Exception e) {
-				ShatteredPixelDungeon.reportException(e);
+				NGPixelDungeon.reportException(e);
 			}
 		}
 	};

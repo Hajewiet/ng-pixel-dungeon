@@ -35,7 +35,7 @@ import com.ng.pixeldungeon.Assets;
 import com.ng.pixeldungeon.Badges;
 import com.ng.pixeldungeon.Dungeon;
 import com.ng.pixeldungeon.GamesInProgress;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.actors.hero.HeroClass;
 import com.ng.pixeldungeon.effects.BannerSprites;
 import com.ng.pixeldungeon.effects.Speck;
@@ -104,7 +104,7 @@ public class StartScene extends PixelScene {
 		int h = Camera.main.height;
 
 		float width, height;
-		if (ShatteredPixelDungeon.landscape()) {
+		if (NGPixelDungeon.landscape()) {
 			width = WIDTH_L;
 			height = HEIGHT_L;
 		} else {
@@ -167,7 +167,7 @@ public class StartScene extends PixelScene {
 			shields.put( cl, shield );
 			add( shield );
 		}
-		if (ShatteredPixelDungeon.landscape()) {
+		if (NGPixelDungeon.landscape()) {
 			float shieldW = width / 4;
 			float shieldH = Math.min( centralHeight, shieldW );
 			top = title.y + title.height + (centralHeight - shieldH) / 2;
@@ -228,7 +228,7 @@ public class StartScene extends PixelScene {
 		add( btnExit );
 
 		curClass = null;
-		updateClass( HeroClass.values()[ShatteredPixelDungeon.lastClass()] );
+		updateClass( HeroClass.values()[NGPixelDungeon.lastClass()] );
 
 		fadeIn();
 
@@ -236,7 +236,7 @@ public class StartScene extends PixelScene {
 			@Override
 			public void call() {
 				if (Game.scene() == StartScene.this) {
-					ShatteredPixelDungeon.switchNoFade( StartScene.class );
+					NGPixelDungeon.switchNoFade(StartScene.class);
 				}
 			}
 		};
@@ -305,8 +305,8 @@ public class StartScene extends PixelScene {
 		Dungeon.hero = null;
 		InterlevelScene.mode = InterlevelScene.Mode.DESCEND;
 
-		if (ShatteredPixelDungeon.intro()) {
-			ShatteredPixelDungeon.intro( false );
+		if (NGPixelDungeon.intro()) {
+			NGPixelDungeon.intro(false);
 			Game.switchScene( IntroScene.class );
 		} else {
 			Game.switchScene( InterlevelScene.class );
@@ -315,7 +315,7 @@ public class StartScene extends PixelScene {
 
 	@Override
 	protected void onBackPressed() {
-		ShatteredPixelDungeon.switchNoFade( TitleScene.class );
+		NGPixelDungeon.switchNoFade(TitleScene.class);
 	}
 
 	private static class GameButton extends RedButton {
@@ -496,7 +496,7 @@ public class StartScene extends PixelScene {
 
 			super.createChildren();
 
-			image = Icons.get( ShatteredPixelDungeon.challenges() > 0 ? Icons.CHALLENGE_ON :Icons.CHALLENGE_OFF );
+			image = Icons.get( NGPixelDungeon.challenges() > 0 ? Icons.CHALLENGE_ON :Icons.CHALLENGE_OFF );
 			add( image );
 		}
 
@@ -512,10 +512,10 @@ public class StartScene extends PixelScene {
 		@Override
 		protected void onClick() {
 			if (Badges.isUnlocked( Badges.Badge.VICTORY )) {
-				StartScene.this.add(new WndChallenges(ShatteredPixelDungeon.challenges(), true) {
+				StartScene.this.add(new WndChallenges(NGPixelDungeon.challenges(), true) {
 					public void onBackPressed() {
 						super.onBackPressed();
-						image.copy( Icons.get( ShatteredPixelDungeon.challenges() > 0 ?
+						image.copy( Icons.get( NGPixelDungeon.challenges() > 0 ?
 								Icons.CHALLENGE_ON :Icons.CHALLENGE_OFF ) );
 					};
 				} );

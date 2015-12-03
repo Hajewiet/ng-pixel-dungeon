@@ -25,7 +25,7 @@ package com.ng.pixeldungeon.ui;
 		import com.watabou.noosa.audio.Sample;
 		import com.watabou.noosa.ui.Button;
 		import com.ng.pixeldungeon.Assets;
-		import com.ng.pixeldungeon.ShatteredPixelDungeon;
+		import com.ng.pixeldungeon.NGPixelDungeon;
 		import com.ng.pixeldungeon.scenes.TitleScene;
 
 public class ExitButton extends Button {
@@ -71,7 +71,7 @@ public class ExitButton extends Button {
 		if (Game.scene() instanceof TitleScene) {
 			Game.instance.finish();
 		} else {
-			ShatteredPixelDungeon.switchNoFade( TitleScene.class );
+			NGPixelDungeon.switchNoFade(TitleScene.class);
 		}
 	}
 }

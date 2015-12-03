@@ -24,7 +24,7 @@ import com.ng.pixeldungeon.Assets;
 import com.ng.pixeldungeon.Badges;
 import com.ng.pixeldungeon.Challenges;
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.items.armor.ClothArmor;
 import com.ng.pixeldungeon.items.artifacts.CloakOfShadows;
 import com.ng.pixeldungeon.items.food.Food;
@@ -165,7 +165,7 @@ public enum HeroClass {
 		darts.identify().collect();
 
 		Dungeon.quickslot.setSlot(0, cloak);
-		if (ShatteredPixelDungeon.quickSlots() > 1)
+		if (NGPixelDungeon.quickSlots() > 1)
 			Dungeon.quickslot.setSlot(1, darts);
 
 		new ScrollOfMagicMapping().setKnown();

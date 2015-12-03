@@ -20,7 +20,7 @@
  */
 package com.ng.pixeldungeon.windows;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.ng.pixeldungeon.scenes.PixelScene;
 import com.ng.pixeldungeon.ui.Window;
@@ -36,7 +36,7 @@ public class WndMessage extends Window {
 		super();
 		
 		BitmapTextMultiline info = PixelScene.createMultiline( text, 6 );
-		info.maxWidth = (ShatteredPixelDungeon.landscape() ? WIDTH_L : WIDTH_P) - MARGIN * 2;
+		info.maxWidth = (NGPixelDungeon.landscape() ? WIDTH_L : WIDTH_P) - MARGIN * 2;
 		info.measure();
 		info.x = info.y = MARGIN;
 		add( info );

@@ -22,7 +22,7 @@ package com.ng.pixeldungeon.scenes;
 
 import com.ng.pixeldungeon.Assets;
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.Statistics;
 import com.ng.pixeldungeon.actors.Actor;
 import com.ng.pixeldungeon.items.Generator;
@@ -191,7 +191,7 @@ public class InterlevelScene extends PixelScene {
 			message.alpha( p );
 
 			if (mode == Mode.CONTINUE || (mode == Mode.DESCEND && Dungeon.depth == 1)) {
-				Music.INSTANCE.volume( p * (ShatteredPixelDungeon.musicVol()/10f));
+				Music.INSTANCE.volume( p * (NGPixelDungeon.musicVol()/10f));
 			}
 			if ((timeLeft -= Game.elapsed) <= 0) {
 				Game.switchScene( GameScene.class );

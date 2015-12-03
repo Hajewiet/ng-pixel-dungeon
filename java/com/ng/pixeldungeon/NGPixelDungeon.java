@@ -36,9 +36,9 @@ import com.ng.pixeldungeon.scenes.GameScene;
 import com.ng.pixeldungeon.scenes.PixelScene;
 import com.ng.pixeldungeon.scenes.TitleScene;
 
-public class ShatteredPixelDungeon extends Game {
+public class NGPixelDungeon extends Game {
 	
-	public ShatteredPixelDungeon() {
+	public NGPixelDungeon() {
 		super( TitleScene.class );
 
 		// 0.2.4

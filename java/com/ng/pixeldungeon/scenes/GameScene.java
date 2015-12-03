@@ -45,7 +45,7 @@ import com.watabou.noosa.Visual;
 import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.particles.Emitter;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.actors.Actor;
 import com.ng.pixeldungeon.actors.blobs.Blob;
 import com.ng.pixeldungeon.actors.mobs.Mob;
@@ -142,12 +142,12 @@ public class GameScene extends PixelScene {
 	public void create() {
 		
 		Music.INSTANCE.play( Assets.TUNE, true );
-		Music.INSTANCE.volume( ShatteredPixelDungeon.musicVol()/10f );
+		Music.INSTANCE.volume( NGPixelDungeon.musicVol()/10f );
 
-		ShatteredPixelDungeon.lastClass(Dungeon.hero.heroClass.ordinal());
+		NGPixelDungeon.lastClass(Dungeon.hero.heroClass.ordinal());
 		
 		super.create();
-		Camera.main.zoom( GameMath.gate(minZoom, defaultZoom + ShatteredPixelDungeon.zoom(), maxZoom));
+		Camera.main.zoom( GameMath.gate(minZoom, defaultZoom + NGPixelDungeon.zoom(), maxZoom));
 		
 		scene = this;
 
@@ -229,7 +229,7 @@ public class GameScene extends PixelScene {
 		fog.updateVisibility( Dungeon.visible, Dungeon.level.visited, Dungeon.level.mapped );
 		add( fog );
 
-		brightness( ShatteredPixelDungeon.brightness() );
+		brightness( NGPixelDungeon.brightness() );
 
 		spells = new Group();
 		add( spells );
@@ -430,9 +430,9 @@ public class GameScene extends PixelScene {
 
 		if (scene == null) return;
 
-		float tagLeft = ShatteredPixelDungeon.flipTags() ? 0 : uiCamera.width - scene.attack.width();
+		float tagLeft = NGPixelDungeon.flipTags() ? 0 : uiCamera.width - scene.attack.width();
 
-		if (ShatteredPixelDungeon.flipTags()) {
+		if (NGPixelDungeon.flipTags()) {
 			scene.log.setRect(scene.attack.width(), scene.toolbar.top(), uiCamera.width - scene.attack.width(), 0);
 		} else {
 			scene.log.setRect(0, scene.toolbar.top(), uiCamera.width - scene.attack.width(),  0 );

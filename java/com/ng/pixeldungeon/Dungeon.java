@@ -141,7 +141,7 @@ public class Dungeon {
 	public static void init() {
 
 		version = Game.versionCode;
-		challenges = ShatteredPixelDungeon.challenges();
+		challenges = NGPixelDungeon.challenges();
 
 		Actor.clear();
 		Actor.resetNextID();

@@ -20,7 +20,7 @@
  */
 package com.ng.pixeldungeon.windows;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.ui.Component;
@@ -43,7 +43,7 @@ public class WndTitledMessage extends Window {
 		
 		super();
 
-		int width = ShatteredPixelDungeon.landscape() ? WIDTH_L : WIDTH_P;
+		int width = NGPixelDungeon.landscape() ? WIDTH_L : WIDTH_P;
 
 		titlebar.setRect( 0, 0, width, 0 );
 		add( titlebar );

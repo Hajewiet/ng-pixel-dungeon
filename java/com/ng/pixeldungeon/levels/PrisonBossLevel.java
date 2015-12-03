@@ -22,7 +22,7 @@ package com.ng.pixeldungeon.levels;
 
 import com.ng.pixeldungeon.Assets;
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.actors.Actor;
 import com.ng.pixeldungeon.actors.Char;
 import com.ng.pixeldungeon.actors.mobs.Mob;
@@ -315,7 +315,7 @@ public class PrisonBossLevel extends Level {
 				CustomTileVisual vis = new exitVisual();
 				vis.pos(7, 7);
 				customTiles.add(vis);
-				((GameScene)ShatteredPixelDungeon.scene()).addCustomTile(vis);
+				((GameScene) NGPixelDungeon.scene()).addCustomTile(vis);
 
 				Dungeon.hero.interrupt();
 				Dungeon.hero.pos = 5+27*32;

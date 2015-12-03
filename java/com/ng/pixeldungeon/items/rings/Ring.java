@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 import com.ng.pixeldungeon.Badges;
 import com.ng.pixeldungeon.Dungeon;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.items.KindofMisc;
 import com.ng.pixeldungeon.actors.Char;
 import com.ng.pixeldungeon.actors.buffs.Buff;
@@ -128,7 +128,7 @@ public class Ring extends KindofMisc {
 			final KindofMisc m1 = hero.belongings.misc1;
 			final KindofMisc m2 = hero.belongings.misc2;
 
-			ShatteredPixelDungeon.scene().add(
+			NGPixelDungeon.scene().add(
 					new WndOptions(TXT_UNEQUIP_TITLE, TXT_UNEQUIP_MESSAGE,
 							Utils.capitalize(m1.toString()),
 							Utils.capitalize(m2.toString())) {

@@ -20,7 +20,7 @@
  */
 package com.ng.pixeldungeon.scenes;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.watabou.input.Touchscreen.Touch;
 import com.watabou.noosa.TouchArea;
 import com.ng.pixeldungeon.DungeonTilemap;
@@ -105,7 +105,7 @@ public class CellSelector extends TouchArea {
 			
 			int zoom = Math.round( camera.zoom );
 			camera.zoom( zoom );
-			ShatteredPixelDungeon.zoom((int) (zoom - PixelScene.defaultZoom));
+			NGPixelDungeon.zoom((int) (zoom - PixelScene.defaultZoom));
 			
 			dragging = true;
 			if (t == touch) {
@@ -165,7 +165,7 @@ public class CellSelector extends TouchArea {
 
 			int zoom = Math.round( camera.zoom );
 			camera.zoom( zoom );
-			ShatteredPixelDungeon.zoom((int) (zoom - PixelScene.defaultZoom));
+			NGPixelDungeon.zoom((int) (zoom - PixelScene.defaultZoom));
 		}
 	}
 

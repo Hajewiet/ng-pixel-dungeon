@@ -21,7 +21,7 @@
 package com.ng.pixeldungeon.ui;
 
 import com.ng.pixeldungeon.Assets;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.scenes.WelcomeScene;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Sample;
@@ -67,6 +67,6 @@ public class ChangesButton extends Button {
 
 	@Override
 	protected void onClick() {
-		ShatteredPixelDungeon.switchNoFade(WelcomeScene.class);
+		NGPixelDungeon.switchNoFade(WelcomeScene.class);
 	}
 }

@@ -20,7 +20,7 @@
  */
 package com.ng.pixeldungeon.windows;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.watabou.input.Touchscreen.Touch;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Game;
@@ -89,7 +89,7 @@ public class WndStory extends Window {
 		super( 0, 0, Chrome.get( Chrome.Type.SCROLL ) );
 		
 		tf = PixelScene.createMultiline( text, 7 );
-		tf.maxWidth = ShatteredPixelDungeon.landscape() ?
+		tf.maxWidth = NGPixelDungeon.landscape() ?
 					WIDTH_L - MARGIN * 2:
 					WIDTH_P - MARGIN *2;
 		tf.measure();

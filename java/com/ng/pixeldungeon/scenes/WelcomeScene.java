@@ -23,7 +23,7 @@ package com.ng.pixeldungeon.scenes;
 import com.ng.pixeldungeon.Badges;
 import com.ng.pixeldungeon.Chrome;
 import com.ng.pixeldungeon.Rankings;
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.ui.Archs;
 import com.ng.pixeldungeon.ui.RedButton;
 import com.ng.pixeldungeon.ui.ScrollPane;
@@ -112,7 +112,7 @@ public class WelcomeScene extends PixelScene {
 	public void create() {
 		super.create();
 
-		final int gameversion = ShatteredPixelDungeon.version();
+		final int gameversion = NGPixelDungeon.version();
 
 		BitmapTextMultiline title;
 		BitmapTextMultiline text;
@@ -190,11 +190,11 @@ public class WelcomeScene extends PixelScene {
 					}
 				}
 
-				if (ShatteredPixelDungeon.version() != Game.versionCode){
-					ShatteredPixelDungeon.version(Game.versionCode);
+				if (NGPixelDungeon.version() != Game.versionCode){
+					NGPixelDungeon.version(Game.versionCode);
 					Game.switchScene(TitleScene.class);
 				} else
-					ShatteredPixelDungeon.switchNoFade(TitleScene.class);
+					NGPixelDungeon.switchNoFade(TitleScene.class);
 
 			}
 		};
@@ -225,10 +225,10 @@ public class WelcomeScene extends PixelScene {
 
 	@Override
 	protected void onBackPressed() {
-		if (ShatteredPixelDungeon.version() != Game.versionCode){
+		if (NGPixelDungeon.version() != Game.versionCode){
 			super.onBackPressed();
 		} else
-			ShatteredPixelDungeon.switchNoFade(TitleScene.class);
+			NGPixelDungeon.switchNoFade(TitleScene.class);
 	}
 }
 

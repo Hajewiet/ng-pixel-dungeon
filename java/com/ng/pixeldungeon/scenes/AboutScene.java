@@ -23,7 +23,7 @@ package com.ng.pixeldungeon.scenes;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.NGPixelDungeon;
 import com.ng.pixeldungeon.ui.ExitButton;
 import com.watabou.input.Touchscreen.Touch;
 import com.watabou.noosa.BitmapTextMultiline;
@@ -60,9 +60,9 @@ public class AboutScene extends PixelScene {
 	public void create() {
 		super.create();
 
-		final float colWidth = Camera.main.width / (ShatteredPixelDungeon.landscape() ? 2 : 1);
-		final float colTop = (Camera.main.height / 2) - (ShatteredPixelDungeon.landscape() ? 30 : 90);
-		final float wataOffset = ShatteredPixelDungeon.landscape() ? colWidth : 0;
+		final float colWidth = Camera.main.width / (NGPixelDungeon.landscape() ? 2 : 1);
+		final float colTop = (Camera.main.height / 2) - (NGPixelDungeon.landscape() ? 30 : 90);
+		final float wataOffset = NGPixelDungeon.landscape() ? colWidth : 0;
 
 		Image shpx = Icons.SHPX.get();
 		shpx.x = (colWidth - shpx.width()) / 2;
@@ -108,7 +108,7 @@ public class AboutScene extends PixelScene {
 
 		Image wata = Icons.WATA.get();
 		wata.x = wataOffset + (colWidth - wata.width()) / 2;
-		wata.y = ShatteredPixelDungeon.landscape() ?
+		wata.y = NGPixelDungeon.landscape() ?
 						colTop:
 						shpxlink.y + wata.height + 20;
 		add( wata );
@@ -164,6 +164,6 @@ public class AboutScene extends PixelScene {
 	
 	@Override
 	protected void onBackPressed() {
-		ShatteredPixelDungeon.switchNoFade(TitleScene.class);
+		NGPixelDungeon.switchNoFade(TitleScene.class);
 	}
 }
