@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.painters;
+package com.ng.pixeldungeon.levels.painters;
 
-import com.shatteredpixel.shatteredpixeldungeon.Challenges;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Foliage;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Terrain;
-import com.shatteredpixel.shatteredpixeldungeon.plants.BlandfruitBush;
-import com.shatteredpixel.shatteredpixeldungeon.plants.Sungrass;
+import com.ng.pixeldungeon.Challenges;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.blobs.Foliage;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Room;
+import com.ng.pixeldungeon.levels.Terrain;
+import com.ng.pixeldungeon.plants.BlandfruitBush;
+import com.ng.pixeldungeon.plants.Sungrass;
 import com.watabou.utils.Random;
 
 public class GardenPainter extends Painter {

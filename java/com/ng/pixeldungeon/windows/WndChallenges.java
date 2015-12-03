@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
 import java.util.ArrayList;
 
 import com.watabou.noosa.BitmapText;
-import com.shatteredpixel.shatteredpixeldungeon.Challenges;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.ui.CheckBox;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Window;
+import com.ng.pixeldungeon.Challenges;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.ui.CheckBox;
+import com.ng.pixeldungeon.ui.Window;
 
 public class WndChallenges extends Window {
 

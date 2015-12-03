@@ -18,11 +18,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.effects;
+package com.ng.pixeldungeon.effects;
 
 import com.watabou.noosa.particles.Emitter;
-import com.shatteredpixel.shatteredpixeldungeon.DungeonTilemap;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.DungeonTilemap;
+import com.ng.pixeldungeon.scenes.GameScene;
 import com.watabou.utils.PointF;
 
 public class CellEmitter {

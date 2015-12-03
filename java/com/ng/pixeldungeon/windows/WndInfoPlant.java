@@ -18,10 +18,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
-import com.shatteredpixel.shatteredpixeldungeon.plants.Plant;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.PlantSprite;
+import com.ng.pixeldungeon.plants.Plant;
+import com.ng.pixeldungeon.sprites.PlantSprite;
 
 public class WndInfoPlant extends WndTitledMessage {
 	

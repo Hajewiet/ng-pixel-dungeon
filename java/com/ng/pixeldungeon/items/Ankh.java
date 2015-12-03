@@ -18,15 +18,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items;
+package com.ng.pixeldungeon.items;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Speck;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite.Glowing;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.effects.CellEmitter;
+import com.ng.pixeldungeon.effects.Speck;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.sprites.ItemSprite.Glowing;
+import com.ng.pixeldungeon.utils.GLog;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.utils.Bundle;
 

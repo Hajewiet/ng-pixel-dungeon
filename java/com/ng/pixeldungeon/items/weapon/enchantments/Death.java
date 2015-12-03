@@ -18,15 +18,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments;
+package com.ng.pixeldungeon.items.weapon.enchantments;
 
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.ShadowParticle;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite.Glowing;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.effects.particles.ShadowParticle;
+import com.ng.pixeldungeon.items.weapon.Weapon;
+import com.ng.pixeldungeon.sprites.ItemSprite;
+import com.ng.pixeldungeon.sprites.ItemSprite.Glowing;
 import com.watabou.utils.Random;
 
 public class Death extends Weapon.Enchantment {

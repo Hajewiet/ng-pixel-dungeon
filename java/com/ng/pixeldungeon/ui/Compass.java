@@ -18,12 +18,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Image;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.DungeonTilemap;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.DungeonTilemap;
 import com.watabou.utils.PointF;
 
 public class Compass extends Image {

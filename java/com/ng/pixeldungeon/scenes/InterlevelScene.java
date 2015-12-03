@@ -18,17 +18,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.scenes;
+package com.ng.pixeldungeon.scenes;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Statistics;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndError;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndStory;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.Statistics;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.items.Generator;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.windows.WndError;
+import com.ng.pixeldungeon.windows.WndStory;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Game;

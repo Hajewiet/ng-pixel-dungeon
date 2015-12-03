@@ -18,23 +18,23 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Gizmo;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.ui.Button;
 import com.watabou.noosa.ui.Component;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.DungeonTilemap;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.CellSelector;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndBag;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndCatalogus;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.DungeonTilemap;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.scenes.CellSelector;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.sprites.ItemSprite;
+import com.ng.pixeldungeon.windows.WndBag;
+import com.ng.pixeldungeon.windows.WndCatalogus;
 
 public class Toolbar extends Component {
 

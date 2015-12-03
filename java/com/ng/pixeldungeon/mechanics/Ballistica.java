@@ -18,10 +18,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.mechanics;
+package com.ng.pixeldungeon.mechanics;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.levels.Level;
 
 import java.util.ArrayList;
 import java.util.List;

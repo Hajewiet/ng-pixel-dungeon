@@ -1,6 +1,6 @@
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
-import com.shatteredpixel.shatteredpixeldungeon.ui.RedButton;
+import com.ng.pixeldungeon.ui.RedButton;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.ui.Component;

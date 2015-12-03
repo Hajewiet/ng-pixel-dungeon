@@ -18,26 +18,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items;
+package com.ng.pixeldungeon.items;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Ghost;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Wandmaker.Rotberry;
-import com.shatteredpixel.shatteredpixeldungeon.items.armor.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.Food;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.MysteryMeat;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.Pasty;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.rings.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.*;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.*;
-import com.shatteredpixel.shatteredpixeldungeon.plants.*;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.actors.mobs.npcs.Ghost;
+import com.ng.pixeldungeon.actors.mobs.npcs.Wandmaker.Rotberry;
+import com.ng.pixeldungeon.items.armor.*;
+import com.ng.pixeldungeon.items.artifacts.*;
+import com.ng.pixeldungeon.items.bags.Bag;
+import com.ng.pixeldungeon.items.food.Food;
+import com.ng.pixeldungeon.items.food.MysteryMeat;
+import com.ng.pixeldungeon.items.food.Pasty;
+import com.ng.pixeldungeon.items.potions.*;
+import com.ng.pixeldungeon.items.rings.*;
+import com.ng.pixeldungeon.items.scrolls.*;
+import com.ng.pixeldungeon.items.wands.*;
+import com.ng.pixeldungeon.items.weapon.*;
+import com.ng.pixeldungeon.items.weapon.melee.*;
+import com.ng.pixeldungeon.items.weapon.missiles.*;
+import com.ng.pixeldungeon.plants.*;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

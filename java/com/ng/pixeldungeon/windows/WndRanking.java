@@ -18,7 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
 import java.util.Locale;
 
@@ -30,21 +30,21 @@ import com.watabou.noosa.Group;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.ui.Button;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Statistics;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Belongings;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.HeroSprite;
-import com.shatteredpixel.shatteredpixeldungeon.ui.BadgesList;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Icons;
-import com.shatteredpixel.shatteredpixeldungeon.ui.ItemSlot;
-import com.shatteredpixel.shatteredpixeldungeon.ui.RedButton;
-import com.shatteredpixel.shatteredpixeldungeon.ui.ScrollPane;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Window;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Statistics;
+import com.ng.pixeldungeon.actors.hero.Belongings;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.sprites.HeroSprite;
+import com.ng.pixeldungeon.ui.BadgesList;
+import com.ng.pixeldungeon.ui.Icons;
+import com.ng.pixeldungeon.ui.ItemSlot;
+import com.ng.pixeldungeon.ui.RedButton;
+import com.ng.pixeldungeon.ui.ScrollPane;
+import com.ng.pixeldungeon.ui.Window;
+import com.ng.pixeldungeon.utils.Utils;
 
 public class WndRanking extends WndTabbed {
 	

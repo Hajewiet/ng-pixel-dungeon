@@ -18,21 +18,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.mobs;
+package com.ng.pixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Burning;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Chill;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Frost;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Speck;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfLiquidFlame;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFireblast;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Fire;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ElementalSprite;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.buffs.Burning;
+import com.ng.pixeldungeon.actors.buffs.Chill;
+import com.ng.pixeldungeon.actors.buffs.Frost;
+import com.ng.pixeldungeon.effects.Speck;
+import com.ng.pixeldungeon.items.potions.PotionOfLiquidFlame;
+import com.ng.pixeldungeon.items.wands.WandOfFireblast;
+import com.ng.pixeldungeon.items.weapon.enchantments.Fire;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.sprites.ElementalSprite;
 import com.watabou.utils.Random;
 
 public class Elemental extends Mob {

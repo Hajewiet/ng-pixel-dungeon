@@ -18,29 +18,29 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.wands;
+package com.ng.pixeldungeon.items.wands;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.items.Dewdrop;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff;
-import com.shatteredpixel.shatteredpixeldungeon.plants.BlandfruitBush;
-import com.shatteredpixel.shatteredpixeldungeon.plants.Plant;
-import com.shatteredpixel.shatteredpixeldungeon.plants.Starflower;
-import com.shatteredpixel.shatteredpixeldungeon.plants.Sungrass;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.items.Dewdrop;
+import com.ng.pixeldungeon.items.Generator;
+import com.ng.pixeldungeon.items.weapon.melee.MagesStaff;
+import com.ng.pixeldungeon.plants.BlandfruitBush;
+import com.ng.pixeldungeon.plants.Plant;
+import com.ng.pixeldungeon.plants.Starflower;
+import com.ng.pixeldungeon.plants.Sungrass;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Blob;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Regrowth;
-import com.shatteredpixel.shatteredpixeldungeon.effects.MagicMissile;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Terrain;
-import com.shatteredpixel.shatteredpixeldungeon.mechanics.Ballistica;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.blobs.Blob;
+import com.ng.pixeldungeon.actors.blobs.Regrowth;
+import com.ng.pixeldungeon.effects.MagicMissile;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Terrain;
+import com.ng.pixeldungeon.mechanics.Ballistica;
+import com.ng.pixeldungeon.scenes.GameScene;
 import com.watabou.utils.Callback;
 import com.watabou.utils.ColorMath;
 import com.watabou.utils.Random;

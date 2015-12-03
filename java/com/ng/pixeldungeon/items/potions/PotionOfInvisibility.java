@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.potions;
+package com.ng.pixeldungeon.items.potions;
 
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.tweeners.AlphaTweener;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Invisibility;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.buffs.Invisibility;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.utils.GLog;
 
 public class PotionOfInvisibility extends Potion {
 

@@ -18,10 +18,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.scenes;
+package com.ng.pixeldungeon.scenes;
 
 import com.watabou.noosa.Game;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndStory;
+import com.ng.pixeldungeon.windows.WndStory;
 
 public class IntroScene extends PixelScene {
 

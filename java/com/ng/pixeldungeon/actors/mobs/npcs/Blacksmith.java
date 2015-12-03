@@ -18,31 +18,30 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs;
+package com.ng.pixeldungeon.actors.mobs.npcs;
 
 import java.util.Collection;
 
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Journal;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob;
-import com.shatteredpixel.shatteredpixeldungeon.items.EquipableItem;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.quest.DarkGold;
-import com.shatteredpixel.shatteredpixeldungeon.items.quest.Pickaxe;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room.Type;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.BlacksmithSprite;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndBlacksmith;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndQuest;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Journal;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.items.EquipableItem;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.quest.DarkGold;
+import com.ng.pixeldungeon.items.quest.Pickaxe;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfUpgrade;
+import com.ng.pixeldungeon.levels.Room;
+import com.ng.pixeldungeon.levels.Room.Type;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.sprites.BlacksmithSprite;
+import com.ng.pixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.windows.WndBlacksmith;
+import com.ng.pixeldungeon.windows.WndQuest;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

@@ -18,11 +18,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.rings;
+package com.ng.pixeldungeon.items.rings;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.mobs.Mob;
 
 public class RingOfEvasion extends Ring {
 

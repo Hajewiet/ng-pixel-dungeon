@@ -18,20 +18,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles;
+package com.ng.pixeldungeon.items.weapon.missiles;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Blob;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Fire;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Burning;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfSharpshooting;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.blobs.Blob;
+import com.ng.pixeldungeon.actors.blobs.Fire;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.buffs.Burning;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
 import com.watabou.utils.Random;
 
 public class IncendiaryDart extends MissileWeapon {

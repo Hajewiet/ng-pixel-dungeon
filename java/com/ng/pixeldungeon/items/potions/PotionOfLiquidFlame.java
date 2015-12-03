@@ -18,18 +18,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.potions;
+package com.ng.pixeldungeon.items.potions;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.effects.CellEmitter;
+import com.ng.pixeldungeon.effects.particles.FlameParticle;
+import com.ng.pixeldungeon.levels.Level;
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Blob;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.Fire;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.blobs.Blob;
+import com.ng.pixeldungeon.actors.blobs.Fire;
+import com.ng.pixeldungeon.scenes.GameScene;
 
 public class PotionOfLiquidFlame extends Potion {
 

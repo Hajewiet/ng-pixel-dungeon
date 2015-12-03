@@ -18,7 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon;
+package com.ng.pixeldungeon;
 
 import javax.microedition.khronos.opengles.GL10;
 
@@ -32,9 +32,9 @@ import android.view.View;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.TitleScene;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.scenes.TitleScene;
 
 public class ShatteredPixelDungeon extends Game {
 	
@@ -43,49 +43,49 @@ public class ShatteredPixelDungeon extends Game {
 
 		// 0.2.4
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Shock.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Piercing" );
+				com.ng.pixeldungeon.items.weapon.enchantments.Shock.class,
+				"com.ng.shatteredpixeldungeon.items.weapon.enchantments.Piercing" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Shock.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Swing" );
+				com.ng.pixeldungeon.items.weapon.enchantments.Shock.class,
+				"com.ng.shatteredpixeldungeon.items.weapon.enchantments.Swing" );
 
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMagicalInfusion.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfWeaponUpgrade" );
+				com.ng.pixeldungeon.items.scrolls.ScrollOfMagicalInfusion.class,
+				"com.ng.shatteredpixeldungeon.items.scrolls.ScrollOfWeaponUpgrade" );
 
 		// 0.2.4d
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.artifacts.LloydsBeacon.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.LloydsBeacon" );
+				com.ng.pixeldungeon.items.artifacts.LloydsBeacon.class,
+				"com.ng.shatteredpixeldungeon.items.LloydsBeacon" );
 
 		// 0.3.0, lots of wands
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfVenom.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfPoison" );
+				com.ng.pixeldungeon.items.wands.WandOfVenom.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfPoison" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFrost.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfSlowness" );
+				com.ng.pixeldungeon.items.wands.WandOfFrost.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfSlowness" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFireblast.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFirebolt" );
+				com.ng.pixeldungeon.items.wands.WandOfFireblast.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfFirebolt" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfCorruption.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfAmok" );
+				com.ng.pixeldungeon.items.wands.WandOfCorruption.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfAmok" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfBlastWave.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfTelekinesis" );
+				com.ng.pixeldungeon.items.wands.WandOfBlastWave.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfTelekinesis" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfMagicMissile.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfFlock" );
+				com.ng.pixeldungeon.items.wands.WandOfMagicMissile.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfFlock" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfMagicMissile.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfAvalanche" );
+				com.ng.pixeldungeon.items.wands.WandOfMagicMissile.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfAvalanche" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfMagicMissile.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfBlink" );
+				com.ng.pixeldungeon.items.wands.WandOfMagicMissile.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfBlink" );
 		com.watabou.utils.Bundle.addAlias(
-				com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfMagicMissile.class,
-				"com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfTeleportation" );
+				com.ng.pixeldungeon.items.wands.WandOfMagicMissile.class,
+				"com.ng.shatteredpixeldungeon.items.wands.WandOfTeleportation" );
 
 
 

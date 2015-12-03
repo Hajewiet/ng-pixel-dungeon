@@ -18,17 +18,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.scrolls;
+package com.ng.pixeldungeon.items.scrolls;
 
 import java.util.ArrayList;
 
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Invisibility;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.MirrorImage;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.buffs.Invisibility;
+import com.ng.pixeldungeon.actors.mobs.npcs.MirrorImage;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.scenes.GameScene;
 import com.watabou.utils.Random;
 
 public class ScrollOfMirrorImage extends Scroll {

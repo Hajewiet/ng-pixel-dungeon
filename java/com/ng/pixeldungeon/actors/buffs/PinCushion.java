@@ -18,16 +18,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.buffs;
+package com.ng.pixeldungeon.actors.buffs;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.MissileWeapon;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.weapon.missiles.MissileWeapon;
 import com.watabou.utils.Bundle;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.LinkedList;
 
 public class PinCushion extends Buff {
 

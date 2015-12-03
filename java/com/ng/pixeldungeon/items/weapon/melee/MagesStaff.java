@@ -18,29 +18,27 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee;
+package com.ng.pixeldungeon.items.weapon.melee;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroSubClass;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfRecharging;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.*;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndBag;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndOptions;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.actors.hero.HeroSubClass;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.bags.Bag;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfRecharging;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfUpgrade;
+import com.ng.pixeldungeon.items.wands.*;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.windows.WndBag;
+import com.ng.pixeldungeon.windows.WndOptions;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.particles.PixelParticle;
 import com.watabou.utils.Bundle;
-import com.watabou.utils.ColorMath;
-import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 
 import java.util.ArrayList;

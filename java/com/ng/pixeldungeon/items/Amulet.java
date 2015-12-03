@@ -18,18 +18,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items;
+package com.ng.pixeldungeon.items;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 import com.watabou.noosa.Game;
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Statistics;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.AmuletScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Statistics;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.scenes.AmuletScene;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Amulet extends Item {
 	

@@ -18,14 +18,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.buffs;
+package com.ng.pixeldungeon.actors.buffs;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ResultDescriptions;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.ui.BuffIndicator;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.ResultDescriptions;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.ui.BuffIndicator;
+import com.ng.pixeldungeon.utils.GLog;
+
 import com.watabou.utils.Random;
 
 public class Ooze extends Buff {

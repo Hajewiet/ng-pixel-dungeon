@@ -18,22 +18,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.scenes;
+package com.ng.pixeldungeon.scenes;
 
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.NinePatch;
 import com.watabou.noosa.audio.Music;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Chrome;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Archs;
-import com.shatteredpixel.shatteredpixeldungeon.ui.BadgesList;
-import com.shatteredpixel.shatteredpixeldungeon.ui.ExitButton;
-import com.shatteredpixel.shatteredpixeldungeon.ui.ScrollPane;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Window;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Chrome;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.ui.Archs;
+import com.ng.pixeldungeon.ui.BadgesList;
+import com.ng.pixeldungeon.ui.ExitButton;
+import com.ng.pixeldungeon.ui.ScrollPane;
+import com.ng.pixeldungeon.ui.Window;
 import com.watabou.utils.Callback;
 
 public class BadgesScene extends PixelScene {

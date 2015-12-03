@@ -18,21 +18,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.mobs;
+package com.ng.pixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Amok;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Terror;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Imp;
-import com.shatteredpixel.shatteredpixeldungeon.items.KindOfWeapon;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.Food;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Knuckles;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.MonkSprite;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Amok;
+import com.ng.pixeldungeon.actors.buffs.Terror;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.actors.mobs.npcs.Imp;
+import com.ng.pixeldungeon.items.KindOfWeapon;
+import com.ng.pixeldungeon.items.food.Food;
+import com.ng.pixeldungeon.items.weapon.melee.Knuckles;
+import com.ng.pixeldungeon.sprites.MonkSprite;
+import com.ng.pixeldungeon.utils.GLog;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

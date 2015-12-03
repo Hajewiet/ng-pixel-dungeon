@@ -18,25 +18,25 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.armor.Armor;
-import com.shatteredpixel.shatteredpixeldungeon.items.keys.Key;
-import com.shatteredpixel.shatteredpixeldungeon.items.keys.SkeletonKey;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfMight;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfStrength;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.Scroll;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMagicalInfusion;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MeleeWeapon;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.armor.Armor;
+import com.ng.pixeldungeon.items.keys.Key;
+import com.ng.pixeldungeon.items.keys.SkeletonKey;
+import com.ng.pixeldungeon.items.potions.Potion;
+import com.ng.pixeldungeon.items.potions.PotionOfMight;
+import com.ng.pixeldungeon.items.potions.PotionOfStrength;
+import com.ng.pixeldungeon.items.scrolls.Scroll;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfMagicalInfusion;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfUpgrade;
+import com.ng.pixeldungeon.items.weapon.Weapon;
+import com.ng.pixeldungeon.items.weapon.melee.MeleeWeapon;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.sprites.ItemSprite;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.utils.Utils;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.ui.Button;
 

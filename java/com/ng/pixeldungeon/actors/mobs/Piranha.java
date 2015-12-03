@@ -18,22 +18,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.mobs;
+package com.ng.pixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Statistics;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.ToxicGas;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Burning;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Frost;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Paralysis;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Roots;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.MysteryMeat;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.PiranhaSprite;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Statistics;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.blobs.ToxicGas;
+import com.ng.pixeldungeon.actors.buffs.Burning;
+import com.ng.pixeldungeon.actors.buffs.Frost;
+import com.ng.pixeldungeon.actors.buffs.Paralysis;
+import com.ng.pixeldungeon.actors.buffs.Roots;
+import com.ng.pixeldungeon.items.food.MysteryMeat;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.sprites.PiranhaSprite;
 import com.watabou.utils.Random;
 
 public class Piranha extends Mob {

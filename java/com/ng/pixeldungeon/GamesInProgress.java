@@ -18,12 +18,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon;
+package com.ng.pixeldungeon;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
+import com.ng.pixeldungeon.actors.hero.HeroClass;
 import com.watabou.utils.Bundle;
 
-import java.io.IOException;
 import java.util.HashMap;
 
 public class GamesInProgress {

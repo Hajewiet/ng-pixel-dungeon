@@ -18,20 +18,20 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.painters;
+package com.ng.pixeldungeon.levels.painters;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Skeleton;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
-import com.shatteredpixel.shatteredpixeldungeon.items.Gold;
-import com.shatteredpixel.shatteredpixeldungeon.items.Heap;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfLiquidFlame;
-import com.shatteredpixel.shatteredpixeldungeon.items.quest.CorpseDust;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Terrain;
-import com.shatteredpixel.shatteredpixeldungeon.ui.CustomTileVisual;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.mobs.Skeleton;
+import com.ng.pixeldungeon.items.Generator;
+import com.ng.pixeldungeon.items.Gold;
+import com.ng.pixeldungeon.items.Heap;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.potions.PotionOfLiquidFlame;
+import com.ng.pixeldungeon.items.quest.CorpseDust;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Room;
+import com.ng.pixeldungeon.levels.Terrain;
+import com.ng.pixeldungeon.ui.CustomTileVisual;
 import com.watabou.utils.Random;
 
 import java.util.ArrayList;

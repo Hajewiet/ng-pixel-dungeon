@@ -18,13 +18,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.potions;
+package com.ng.pixeldungeon.items.potions;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.MindVision;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.buffs.MindVision;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.utils.GLog;
 
 public class PotionOfMindVision extends Potion {
 

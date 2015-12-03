@@ -18,23 +18,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.mobs;
+package com.ng.pixeldungeon.actors.mobs;
 
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Journal;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.ToxicGas;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Poison;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfPsionicBlast;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon.Enchantment;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Death;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments.Leech;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MeleeWeapon;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.StatueSprite;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Journal;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.blobs.ToxicGas;
+import com.ng.pixeldungeon.actors.buffs.Poison;
+import com.ng.pixeldungeon.items.Generator;
+import com.ng.pixeldungeon.items.weapon.Weapon;
+import com.ng.pixeldungeon.items.weapon.Weapon.Enchantment;
+import com.ng.pixeldungeon.items.weapon.enchantments.Death;
+import com.ng.pixeldungeon.items.weapon.enchantments.Leech;
+import com.ng.pixeldungeon.items.weapon.melee.MeleeWeapon;
+import com.ng.pixeldungeon.sprites.StatueSprite;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

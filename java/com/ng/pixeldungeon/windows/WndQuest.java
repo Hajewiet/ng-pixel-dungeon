@@ -18,10 +18,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.NPC;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.actors.mobs.npcs.NPC;
+import com.ng.pixeldungeon.utils.Utils;
 
 public class WndQuest extends WndTitledMessage {
 

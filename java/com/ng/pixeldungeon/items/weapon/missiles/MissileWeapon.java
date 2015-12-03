@@ -18,22 +18,22 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles;
+package com.ng.pixeldungeon.items.weapon.missiles;
 
 import java.util.ArrayList;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.PinCushion;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.HeroClass;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.rings.RingOfSharpshooting;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndOptions;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.buffs.PinCushion;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.actors.hero.HeroClass;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.rings.RingOfSharpshooting;
+import com.ng.pixeldungeon.items.weapon.Weapon;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.windows.WndOptions;
 import com.watabou.utils.Random;
 
 public class MissileWeapon extends Weapon {

@@ -18,13 +18,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.painters;
+package com.ng.pixeldungeon.levels.painters;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Room;
 import com.watabou.utils.Point;
 
 public class PassagePainter extends Painter {

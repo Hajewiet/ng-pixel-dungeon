@@ -18,18 +18,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
 import java.io.IOException;
 
-import com.shatteredpixel.shatteredpixeldungeon.ui.*;
+import com.ng.pixeldungeon.ui.*;
 import com.watabou.noosa.Game;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.RankingsScene;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.TitleScene;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.scenes.InterlevelScene;
+import com.ng.pixeldungeon.scenes.RankingsScene;
+import com.ng.pixeldungeon.scenes.TitleScene;
 
 public class WndGame extends Window {
 	

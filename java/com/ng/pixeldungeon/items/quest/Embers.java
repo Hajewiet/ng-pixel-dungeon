@@ -18,11 +18,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.quest;
+package com.ng.pixeldungeon.items.quest;
 
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.sprites.ItemSprite;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Embers extends Item {
 

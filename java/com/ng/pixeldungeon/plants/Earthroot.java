@@ -18,19 +18,19 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.plants;
+package com.ng.pixeldungeon.plants;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.Actor;
 import com.watabou.noosa.Camera;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.EarthParticle;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfParalyticGas;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
-import com.shatteredpixel.shatteredpixeldungeon.ui.BuffIndicator;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.effects.CellEmitter;
+import com.ng.pixeldungeon.effects.particles.EarthParticle;
+import com.ng.pixeldungeon.items.potions.PotionOfParalyticGas;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.ui.BuffIndicator;
+import com.ng.pixeldungeon.utils.Utils;
 import com.watabou.utils.Bundle;
 
 public class Earthroot extends Plant {

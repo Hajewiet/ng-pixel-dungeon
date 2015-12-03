@@ -18,17 +18,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.rings;
+package com.ng.pixeldungeon.items.rings;
 
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.ToxicGas;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Burning;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Poison;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Eye;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Warlock;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Yog;
-import com.shatteredpixel.shatteredpixeldungeon.levels.traps.LightningTrap;
+import com.ng.pixeldungeon.actors.blobs.ToxicGas;
+import com.ng.pixeldungeon.actors.buffs.Burning;
+import com.ng.pixeldungeon.actors.buffs.Poison;
+import com.ng.pixeldungeon.actors.mobs.Eye;
+import com.ng.pixeldungeon.actors.mobs.Warlock;
+import com.ng.pixeldungeon.actors.mobs.Yog;
+import com.ng.pixeldungeon.levels.traps.LightningTrap;
 import com.watabou.utils.Random;
 
 public class RingOfElements extends Ring {

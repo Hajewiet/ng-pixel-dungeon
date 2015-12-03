@@ -18,14 +18,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.blobs;
+package com.ng.pixeldungeon.actors.blobs;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.Journal;
-import com.shatteredpixel.shatteredpixeldungeon.effects.BlobEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Speck;
-import com.shatteredpixel.shatteredpixeldungeon.items.Heap;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Journal;
+import com.ng.pixeldungeon.effects.BlobEmitter;
+import com.ng.pixeldungeon.effects.Speck;
+import com.ng.pixeldungeon.items.Heap;
+import com.ng.pixeldungeon.items.Item;
 import com.watabou.utils.Bundle;
 
 public class Alchemy extends Blob {

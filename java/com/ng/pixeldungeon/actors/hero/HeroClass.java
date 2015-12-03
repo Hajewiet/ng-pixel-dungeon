@@ -18,26 +18,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.hero;
+package com.ng.pixeldungeon.actors.hero;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Challenges;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.items.armor.ClothArmor;
-import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.CloakOfShadows;
-import com.shatteredpixel.shatteredpixeldungeon.items.food.Food;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfMindVision;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfStrength;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMagicMapping;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.WandOfMagicMissile;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.Dagger;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.ShortSword;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.Dart;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.Boomerang;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Challenges;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.items.armor.ClothArmor;
+import com.ng.pixeldungeon.items.artifacts.CloakOfShadows;
+import com.ng.pixeldungeon.items.food.Food;
+import com.ng.pixeldungeon.items.potions.PotionOfMindVision;
+import com.ng.pixeldungeon.items.potions.PotionOfStrength;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfMagicMapping;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfUpgrade;
+import com.ng.pixeldungeon.items.weapon.melee.MagesStaff;
+import com.ng.pixeldungeon.items.wands.WandOfMagicMissile;
+import com.ng.pixeldungeon.items.weapon.melee.Dagger;
+import com.ng.pixeldungeon.items.weapon.melee.ShortSword;
+import com.ng.pixeldungeon.items.weapon.missiles.Dart;
+import com.ng.pixeldungeon.items.weapon.missiles.Boomerang;
 import com.watabou.utils.Bundle;
 
 public enum HeroClass {

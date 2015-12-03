@@ -18,25 +18,25 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.windows;
+package com.ng.pixeldungeon.windows;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob;
-import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.MasterThievesArmband;
+import com.ng.pixeldungeon.actors.mobs.Mob;
+import com.ng.pixeldungeon.items.artifacts.MasterThievesArmband;
 import com.watabou.noosa.BitmapTextMultiline;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs.Shopkeeper;
-import com.shatteredpixel.shatteredpixeldungeon.items.EquipableItem;
-import com.shatteredpixel.shatteredpixeldungeon.items.Gold;
-import com.shatteredpixel.shatteredpixeldungeon.items.Heap;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite;
-import com.shatteredpixel.shatteredpixeldungeon.ui.ItemSlot;
-import com.shatteredpixel.shatteredpixeldungeon.ui.RedButton;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Window;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.actors.mobs.npcs.Shopkeeper;
+import com.ng.pixeldungeon.items.EquipableItem;
+import com.ng.pixeldungeon.items.Gold;
+import com.ng.pixeldungeon.items.Heap;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.sprites.ItemSprite;
+import com.ng.pixeldungeon.ui.ItemSlot;
+import com.ng.pixeldungeon.ui.RedButton;
+import com.ng.pixeldungeon.ui.Window;
+import com.ng.pixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.utils.Utils;
 
 public class WndTradeItem extends Window {
 	

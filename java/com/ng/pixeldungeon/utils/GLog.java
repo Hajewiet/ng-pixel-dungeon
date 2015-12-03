@@ -18,7 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.utils;
+package com.ng.pixeldungeon.utils;
 
 import com.watabou.utils.Signal;
 

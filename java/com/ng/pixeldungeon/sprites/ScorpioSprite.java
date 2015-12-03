@@ -18,12 +18,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.sprites;
+package com.ng.pixeldungeon.sprites;
 
 import com.watabou.noosa.TextureFilm;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.missiles.Dart;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.items.weapon.missiles.Dart;
+import com.ng.pixeldungeon.levels.Level;
 import com.watabou.utils.Callback;
 
 public class ScorpioSprite extends MobSprite {

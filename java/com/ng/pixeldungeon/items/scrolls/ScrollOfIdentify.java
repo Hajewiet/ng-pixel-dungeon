@@ -18,13 +18,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.scrolls;
+package com.ng.pixeldungeon.items.scrolls;
 
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Identification;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndBag;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.effects.Identification;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.windows.WndBag;
 
 public class ScrollOfIdentify extends InventoryScroll {
 

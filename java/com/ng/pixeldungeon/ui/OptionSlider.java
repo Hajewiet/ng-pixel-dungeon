@@ -18,16 +18,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
-import com.shatteredpixel.shatteredpixeldungeon.Chrome;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.Chrome;
+import com.ng.pixeldungeon.scenes.PixelScene;
 import com.watabou.input.Touchscreen;
 import com.watabou.noosa.*;
 import com.watabou.noosa.ui.Component;
-import com.watabou.utils.Callback;
 import com.watabou.utils.GameMath;
-import com.watabou.utils.Point;
 import com.watabou.utils.PointF;
 
 public abstract class OptionSlider extends Component {

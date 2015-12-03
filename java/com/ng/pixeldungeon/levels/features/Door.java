@@ -18,14 +18,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.features;
+package com.ng.pixeldungeon.levels.features;
 
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Terrain;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Terrain;
+import com.ng.pixeldungeon.scenes.GameScene;
 
 public class Door {
 

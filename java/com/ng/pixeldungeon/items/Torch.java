@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items;
+package com.ng.pixeldungeon.items;
 
 import java.util.ArrayList;
 
 import com.watabou.noosa.particles.Emitter;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Light;
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSpriteSheet;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.actors.buffs.Light;
+import com.ng.pixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.effects.particles.FlameParticle;
+import com.ng.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Torch extends Item {
 

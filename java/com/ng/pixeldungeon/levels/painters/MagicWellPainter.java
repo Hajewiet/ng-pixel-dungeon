@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.painters;
+package com.ng.pixeldungeon.levels.painters;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.WaterOfAwareness;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.WaterOfHealth;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.WaterOfTransmutation;
-import com.shatteredpixel.shatteredpixeldungeon.actors.blobs.WellWater;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Terrain;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.actors.blobs.WaterOfAwareness;
+import com.ng.pixeldungeon.actors.blobs.WaterOfHealth;
+import com.ng.pixeldungeon.actors.blobs.WaterOfTransmutation;
+import com.ng.pixeldungeon.actors.blobs.WellWater;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Room;
+import com.ng.pixeldungeon.levels.Terrain;
 import com.watabou.utils.Point;
 import com.watabou.utils.Random;
 

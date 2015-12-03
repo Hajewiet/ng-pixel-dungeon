@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
 import java.util.regex.Pattern;
 
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.ui.Component;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.sprites.CharSprite;
+import com.ng.pixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.utils.Utils;
 import com.watabou.utils.Signal;
 
 public class GameLog extends Component implements Signal.Listener<String> {

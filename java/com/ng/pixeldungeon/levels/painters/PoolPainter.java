@@ -18,17 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.painters;
+package com.ng.pixeldungeon.levels.painters;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Piranha;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
-import com.shatteredpixel.shatteredpixeldungeon.items.Heap;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfInvisibility;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Room;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Terrain;
+import com.ng.pixeldungeon.actors.mobs.Piranha;
+import com.ng.pixeldungeon.items.Generator;
+import com.ng.pixeldungeon.items.Heap;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.potions.PotionOfInvisibility;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.Room;
+import com.ng.pixeldungeon.levels.Terrain;
 import com.watabou.utils.Random;
 
 public class PoolPainter extends Painter {

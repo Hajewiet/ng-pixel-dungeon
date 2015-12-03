@@ -18,7 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
 import com.watabou.input.Touchscreen.Touch;
 import com.watabou.noosa.BitmapText;
@@ -30,16 +30,16 @@ import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.ui.Button;
 import com.watabou.noosa.ui.Component;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Speck;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.BloodParticle;
-import com.shatteredpixel.shatteredpixeldungeon.items.keys.IronKey;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.HeroSprite;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndGame;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndHero;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.effects.Speck;
+import com.ng.pixeldungeon.effects.particles.BloodParticle;
+import com.ng.pixeldungeon.items.keys.IronKey;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.scenes.PixelScene;
+import com.ng.pixeldungeon.sprites.HeroSprite;
+import com.ng.pixeldungeon.windows.WndGame;
+import com.ng.pixeldungeon.windows.WndHero;
 
 public class StatusPane extends Component {
 

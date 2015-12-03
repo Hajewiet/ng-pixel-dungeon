@@ -18,10 +18,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
+package com.ng.pixeldungeon.ui;
 
 import com.watabou.noosa.Image;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Dungeon;
 
 public class BusyIndicator extends Image {
 	

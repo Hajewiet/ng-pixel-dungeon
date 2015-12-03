@@ -18,9 +18,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels;
+package com.ng.pixeldungeon.levels;
 
-import com.shatteredpixel.shatteredpixeldungeon.levels.traps.*;
+import com.ng.pixeldungeon.levels.traps.*;
 import com.watabou.utils.SparseArray;
 
 public class Terrain {

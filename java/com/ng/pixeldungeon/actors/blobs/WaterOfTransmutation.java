@@ -18,26 +18,26 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.blobs;
+package com.ng.pixeldungeon.actors.blobs;
 
-import com.shatteredpixel.shatteredpixeldungeon.Journal;
-import com.shatteredpixel.shatteredpixeldungeon.Journal.Feature;
-import com.shatteredpixel.shatteredpixeldungeon.effects.BlobEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Speck;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator;
-import com.shatteredpixel.shatteredpixeldungeon.items.Generator.Category;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.artifacts.Artifact;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.Potion;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfMight;
-import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfStrength;
-import com.shatteredpixel.shatteredpixeldungeon.items.rings.Ring;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.Scroll;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfMagicalInfusion;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.*;
-import com.shatteredpixel.shatteredpixeldungeon.plants.Plant;
+import com.ng.pixeldungeon.Journal;
+import com.ng.pixeldungeon.Journal.Feature;
+import com.ng.pixeldungeon.effects.BlobEmitter;
+import com.ng.pixeldungeon.effects.Speck;
+import com.ng.pixeldungeon.items.Generator;
+import com.ng.pixeldungeon.items.Generator.Category;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.artifacts.Artifact;
+import com.ng.pixeldungeon.items.potions.Potion;
+import com.ng.pixeldungeon.items.potions.PotionOfMight;
+import com.ng.pixeldungeon.items.potions.PotionOfStrength;
+import com.ng.pixeldungeon.items.rings.Ring;
+import com.ng.pixeldungeon.items.scrolls.Scroll;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfUpgrade;
+import com.ng.pixeldungeon.items.scrolls.ScrollOfMagicalInfusion;
+import com.ng.pixeldungeon.items.wands.Wand;
+import com.ng.pixeldungeon.items.weapon.melee.*;
+import com.ng.pixeldungeon.plants.Plant;
 
 public class WaterOfTransmutation extends WellWater {
 	

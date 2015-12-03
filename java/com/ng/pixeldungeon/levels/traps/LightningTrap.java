@@ -18,25 +18,23 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.traps;
+package com.ng.pixeldungeon.levels.traps;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.effects.SpellSprite;
-import com.shatteredpixel.shatteredpixeldungeon.items.Heap;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.wands.Wand;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.MagesStaff;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.TrapSprite;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.items.Heap;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.wands.Wand;
+import com.ng.pixeldungeon.sprites.TrapSprite;
 import com.watabou.noosa.Camera;
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ResultDescriptions;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.effects.CellEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Lightning;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.SparkParticle;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
-import com.shatteredpixel.shatteredpixeldungeon.utils.Utils;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.ResultDescriptions;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.effects.CellEmitter;
+import com.ng.pixeldungeon.effects.Lightning;
+import com.ng.pixeldungeon.effects.particles.SparkParticle;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.utils.GLog;
+import com.ng.pixeldungeon.utils.Utils;
 import com.watabou.utils.Random;
 
 import java.util.ArrayList;

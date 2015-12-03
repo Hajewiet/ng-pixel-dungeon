@@ -18,14 +18,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items;
+package com.ng.pixeldungeon.items;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
+import com.ng.pixeldungeon.Dungeon;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

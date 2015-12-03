@@ -18,12 +18,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.blobs;
+package com.ng.pixeldungeon.actors.blobs;
 
 
 
-import com.shatteredpixel.shatteredpixeldungeon.effects.BlobEmitter;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.GooSprite;
+import com.ng.pixeldungeon.effects.BlobEmitter;
+import com.ng.pixeldungeon.sprites.GooSprite;
 
 public class GooWarn extends Blob {
 

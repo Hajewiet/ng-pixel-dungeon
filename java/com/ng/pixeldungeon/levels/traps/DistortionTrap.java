@@ -18,14 +18,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels.traps;
+package com.ng.pixeldungeon.levels.traps;
 
-import com.shatteredpixel.shatteredpixeldungeon.Dungeon;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.keys.Key;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.InterlevelScene;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.TrapSprite;
+import com.ng.pixeldungeon.Dungeon;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.items.keys.Key;
+import com.ng.pixeldungeon.scenes.InterlevelScene;
+import com.ng.pixeldungeon.sprites.TrapSprite;
 import com.watabou.noosa.Game;
 
 public class DistortionTrap extends Trap{

@@ -18,13 +18,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments;
+package com.ng.pixeldungeon.items.weapon.enchantments;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Buff;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.ItemSprite.Glowing;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.buffs.Buff;
+import com.ng.pixeldungeon.items.weapon.Weapon;
+import com.ng.pixeldungeon.sprites.ItemSprite;
+import com.ng.pixeldungeon.sprites.ItemSprite.Glowing;
 import com.watabou.utils.Random;
 
 public class Paralysis extends Weapon.Enchantment {
@@ -42,7 +42,7 @@ public class Paralysis extends Weapon.Enchantment {
 		
 		if (Random.Int( level + 8 ) >= 7) {
 			
-			Buff.prolong( defender, com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Paralysis.class,
+			Buff.prolong( defender, com.ng.pixeldungeon.actors.buffs.Paralysis.class,
 				Random.Float( 1, 1.5f + level ) );
 			
 			return true;

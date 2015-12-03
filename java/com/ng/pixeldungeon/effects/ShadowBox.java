@@ -18,11 +18,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.effects;
+package com.ng.pixeldungeon.effects;
 
 import com.watabou.gltextures.SmartTexture;
 import com.watabou.noosa.NinePatch;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
+import com.ng.pixeldungeon.Assets;
 
 public class ShadowBox extends NinePatch {
 

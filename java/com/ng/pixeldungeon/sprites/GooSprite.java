@@ -18,9 +18,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.sprites;
+package com.ng.pixeldungeon.sprites;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
+import com.ng.pixeldungeon.actors.Char;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.particles.PixelParticle;
@@ -28,7 +28,7 @@ import com.watabou.noosa.particles.Emitter.Factory;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
+import com.ng.pixeldungeon.Assets;
 
 public class GooSprite extends MobSprite {
 	

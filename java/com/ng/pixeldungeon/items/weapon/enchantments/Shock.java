@@ -18,18 +18,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.weapon.enchantments;
+package com.ng.pixeldungeon.items.weapon.enchantments;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
-import com.shatteredpixel.shatteredpixeldungeon.effects.Lightning;
-import com.shatteredpixel.shatteredpixeldungeon.effects.particles.SparkParticle;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.Weapon;
-import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
-import com.shatteredpixel.shatteredpixeldungeon.levels.traps.LightningTrap;
+import com.ng.pixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.Char;
+import com.ng.pixeldungeon.effects.Lightning;
+import com.ng.pixeldungeon.effects.particles.SparkParticle;
+import com.ng.pixeldungeon.items.weapon.Weapon;
+import com.ng.pixeldungeon.levels.Level;
+import com.ng.pixeldungeon.levels.traps.LightningTrap;
 import com.watabou.utils.Random;
 
 public class Shock extends Weapon.Enchantment {

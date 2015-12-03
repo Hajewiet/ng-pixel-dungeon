@@ -18,9 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.ui;
-
-import com.shatteredpixel.shatteredpixeldungeon.scenes.PixelScene;
+package com.ng.pixeldungeon.ui;
 
 public class CheckBox extends RedButton {
 

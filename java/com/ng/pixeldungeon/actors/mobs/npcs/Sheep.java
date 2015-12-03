@@ -18,9 +18,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.actors.mobs.npcs;
+package com.ng.pixeldungeon.actors.mobs.npcs;
 
-import com.shatteredpixel.shatteredpixeldungeon.sprites.SheepSprite;
+import com.ng.pixeldungeon.sprites.SheepSprite;
 import com.watabou.utils.Random;
 
 public class Sheep extends NPC {

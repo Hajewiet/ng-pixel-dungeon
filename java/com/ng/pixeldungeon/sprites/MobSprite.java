@@ -18,12 +18,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.sprites;
+package com.ng.pixeldungeon.sprites;
 
 import com.watabou.noosa.tweeners.AlphaTweener;
 import com.watabou.noosa.tweeners.ScaleTweener;
-import com.shatteredpixel.shatteredpixeldungeon.DungeonTilemap;
-import com.shatteredpixel.shatteredpixeldungeon.actors.mobs.Mob;
+import com.ng.pixeldungeon.DungeonTilemap;
+import com.ng.pixeldungeon.actors.mobs.Mob;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 

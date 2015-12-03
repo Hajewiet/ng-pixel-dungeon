@@ -18,9 +18,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.potions;
+package com.ng.pixeldungeon.items.potions;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.hero.Hero;
+import com.ng.pixeldungeon.actors.hero.Hero;
 
 public class PotionOfExperience extends Potion {
 

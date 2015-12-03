@@ -18,14 +18,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.effects;
+package com.ng.pixeldungeon.effects;
 
 import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
 
 import com.watabou.noosa.Game;
-import com.shatteredpixel.shatteredpixeldungeon.sprites.CharSprite;
+import com.ng.pixeldungeon.sprites.CharSprite;
 
 public class TorchHalo extends Halo {
 

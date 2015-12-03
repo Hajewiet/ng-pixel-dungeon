@@ -18,15 +18,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels;
+package com.ng.pixeldungeon.levels;
 
 import java.util.Arrays;
 
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.actors.Actor;
 import com.watabou.noosa.Group;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.items.Amulet;
-import com.shatteredpixel.shatteredpixeldungeon.levels.painters.Painter;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.items.Amulet;
+import com.ng.pixeldungeon.levels.painters.Painter;
 import com.watabou.utils.Bundle;
 import com.watabou.utils.Random;
 

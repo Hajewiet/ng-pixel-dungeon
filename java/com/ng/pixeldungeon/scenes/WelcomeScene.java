@@ -18,16 +18,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.scenes;
+package com.ng.pixeldungeon.scenes;
 
-import com.shatteredpixel.shatteredpixeldungeon.Badges;
-import com.shatteredpixel.shatteredpixeldungeon.Chrome;
-import com.shatteredpixel.shatteredpixeldungeon.Rankings;
-import com.shatteredpixel.shatteredpixeldungeon.ShatteredPixelDungeon;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Archs;
-import com.shatteredpixel.shatteredpixeldungeon.ui.RedButton;
-import com.shatteredpixel.shatteredpixeldungeon.ui.ScrollPane;
-import com.shatteredpixel.shatteredpixeldungeon.ui.Window;
+import com.ng.pixeldungeon.Badges;
+import com.ng.pixeldungeon.Chrome;
+import com.ng.pixeldungeon.Rankings;
+import com.ng.pixeldungeon.ShatteredPixelDungeon;
+import com.ng.pixeldungeon.ui.Archs;
+import com.ng.pixeldungeon.ui.RedButton;
+import com.ng.pixeldungeon.ui.ScrollPane;
+import com.ng.pixeldungeon.ui.Window;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Game;
@@ -106,7 +106,7 @@ public class WelcomeScene extends PixelScene {
 			"Regardless, tread with caution! Your saves may contain things which don't exist in this version, "+
 			"this could cause some very weird errors to occur.";
 
-	private static final String LNK = "https://play.google.com/store/apps/details?id=com.shatteredpixel.shatteredpixeldungeon";
+	private static final String LNK = "https://play.google.com/store/apps/details?id=com.ng.shatteredpixeldungeon";
 
 	@Override
 	public void create() {

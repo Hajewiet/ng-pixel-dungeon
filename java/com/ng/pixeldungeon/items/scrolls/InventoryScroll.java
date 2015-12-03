@@ -18,15 +18,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.scrolls;
+package com.ng.pixeldungeon.items.scrolls;
 
 import com.watabou.noosa.audio.Sample;
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.buffs.Invisibility;
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.scenes.GameScene;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndBag;
-import com.shatteredpixel.shatteredpixeldungeon.windows.WndOptions;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.buffs.Invisibility;
+import com.ng.pixeldungeon.items.Item;
+import com.ng.pixeldungeon.scenes.GameScene;
+import com.ng.pixeldungeon.windows.WndBag;
+import com.ng.pixeldungeon.windows.WndOptions;
 
 public abstract class InventoryScroll extends Scroll {
 

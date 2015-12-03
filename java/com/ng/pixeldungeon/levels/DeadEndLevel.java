@@ -18,12 +18,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.levels;
+package com.ng.pixeldungeon.levels;
 
 import java.util.Arrays;
 
-import com.shatteredpixel.shatteredpixeldungeon.Assets;
-import com.shatteredpixel.shatteredpixeldungeon.actors.Actor;
+import com.ng.pixeldungeon.Assets;
+import com.ng.pixeldungeon.actors.Actor;
 import com.watabou.utils.Random;
 
 public class DeadEndLevel extends Level {

@@ -18,10 +18,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.shatteredpixel.shatteredpixeldungeon.items.keys;
+package com.ng.pixeldungeon.items.keys;
 
-import com.shatteredpixel.shatteredpixeldungeon.items.Item;
-import com.shatteredpixel.shatteredpixeldungeon.items.bags.Bag;
+import com.ng.pixeldungeon.items.Item;
+
 import com.watabou.utils.Bundle;
 
 public class Key extends Item {
